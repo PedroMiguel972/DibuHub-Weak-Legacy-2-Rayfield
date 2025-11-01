@@ -231,3 +231,14 @@ print("Autofarm iniciado! Use _G.AutoFarmEnabled = false para parar")
 local CreditTab = Window:CreateTab("Credits", nil) -- Title, Image
 local Section = CreditTab:CreateSection("Main")
 local Label = CreditTab:CreateLabel("Discord: Dibu.gg", nil, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+Rayfield:Notify({
+   Title = "Script was executed!",
+   Content = "Best script",
+   Duration = 6.5,
+   Image = nil,
+})
+
+local ConfgTab = Window:CreateTab("Confg.", nil) -- Title, Image
+local Section = ConfgTab:CreateSection("Configuration")
+local Label = ConfgTab:CreateLabel("SOON...", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
